@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Wayward</title>
+  <!-- A lowercase w drawn as one wandering path that ends in a dot: you, somewhere you didn't plan to be. -->
+  <path d="M38 98 C42 156 54 192 78 192 C102 192 112 146 120 114 C128 146 138 192 162 192 C188 192 198 158 202 122" fill="none" stroke="#000" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="203" cy="96" r="31"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Detour</title>
+  <!-- A route that heads off, does one loop-the-loop, then carries on. Loop radius 46, stroke 26. -->
+  <path d="M36 190 H122 A46 46 0 1 0 76 144 C76 172 100 190 134 190 H196" fill="none" stroke="#000" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176 162 L206 190 L176 218" fill="none" stroke="#000" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

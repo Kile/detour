@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Wander</title>
+  <!-- A lowercase w drawn as one wandering path that ends in a dot: you, somewhere new. -->
+  <path d="M36 96 C40 154 52 190 76 190 C100 190 110 144 118 112 C126 144 136 190 160 190 C186 190 196 156 200 116" fill="none" stroke="#000" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="201" cy="98" r="30"/>
+</svg>

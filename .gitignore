@@ -1,0 +1,25 @@
+# macOS / Xcode
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Local config & secrets — never commit these.
+# The Claude API key lives only in the iOS Keychain; nothing here should ever contain it,
+# but these patterns guard against accidental local config files.
+*.local.xcconfig
+Local.xcconfig
+Secrets.xcconfig
+Secrets.plist
+*.secret
+.env
+.env.*
+# Firebase config for the optional Gemini fallback (M6)
+GoogleService-Info.plist
+
+# Generated HTML for the store screenshots (contains local file paths)
+Marketing/_source/

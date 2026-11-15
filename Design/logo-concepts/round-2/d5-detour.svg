@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Detour</title>
+  <!-- The letter D as a route: three centre-line dashes are the road you planned (stroke 14, 24 long, 13 apart),
+       the bold bowl is the detour you took (stroke 30, radius 76), and the dot is you, back on track (r 25). -->
+  <g fill="#000" stroke="#000"><path d="M76 79 V89 M76 116 V126 M76 153 V163" fill="none" stroke-width="14" stroke-linecap="round"/><path d="M76 52 H108 A76 76 0 0 1 108 204 H76" fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><circle cx="76" cy="204" r="25" stroke="none"/></g>
+</svg>

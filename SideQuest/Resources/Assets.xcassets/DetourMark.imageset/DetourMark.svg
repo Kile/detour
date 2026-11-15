@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Detour</title>
+  <!-- Master mark, outlined. The letter D as a route: three centre-line dashes are the road you planned,
+       the bold bowl (30 wide, radius 76 on centre) is the detour you took, the dot (r 25) is you, back on track. -->
+  <g fill="#000"><path d="M76 37 H108 A91 91 0 0 1 108 219 H76 V189 H108 A61 61 0 0 0 108 67 H76 A15 15 0 0 1 76 37 Z"/><rect x="69" y="72" width="14" height="24" rx="7"/><rect x="69" y="109" width="14" height="24" rx="7"/><rect x="69" y="146" width="14" height="24" rx="7"/><circle cx="76" cy="204" r="25"/></g>
+</svg>

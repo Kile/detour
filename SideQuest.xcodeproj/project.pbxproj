@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00830C00D0E5B5770A30C918 /* ProgressionAndGeofenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1019979B57FD350483072F60 /* ProgressionAndGeofenceTests.swift */; };
+		04468BE854795C9748C48D06 /* GeminiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF505BBEA382F1C8EE4AEDE /* GeminiClient.swift */; };
+		071F6CAF272B68A66716BA8E /* QuestPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BAD087DB74565F1451269 /* QuestPrompts.swift */; };
+		0D97FDD7CB27C09C93F8B52F /* AnthropicClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF0630B54AAF620063C0F5E /* AnthropicClientTests.swift */; };
+		13BC30C55FD5CF4FDCBF0D9B /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B31CADA457417DBA0182E /* CameraPicker.swift */; };
+		1633972A7B199A1B93261486 /* PlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A01541A8747DD4168E4C3 /* PlacesService.swift */; };
+		16ACD152196B1CDBDE619170 /* PerceptualHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D64D7E0CEDA17535EF5351 /* PerceptualHash.swift */; };
+		232AF9E390EDAA4B9D756F0B /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED28D39AAD2EA27810D13A0 /* KeychainStore.swift */; };
+		237FED0845A51CAF99877CF4 /* MultiPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0065A26E71484ADD9FF9FA56 /* MultiPhotoTests.swift */; };
+		243B5A2CB0BC1995B72EAA49 /* QuestOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE63A75191DFBE9704E76F9B /* QuestOptions.swift */; };
+		25C6C20D2259AAE97E38172D /* PhotoModeAndTimeTrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB035582649930C7149C3774 /* PhotoModeAndTimeTrialTests.swift */; };
+		25DCDBD4C46F2C959E791504 /* SafetyAndPlaceValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899680F4C8FB2A7ED30A837 /* SafetyAndPlaceValidatorTests.swift */; };
+		2A989A5D67084DBFADEF0247 /* QuestSchemas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC097A17ACD6C94B42F8F1A0 /* QuestSchemas.swift */; };
+		312CBC951D678289F0210924 /* QuestViolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBDA365EB196BBCED33BEFB /* QuestViolation.swift */; };
+		322A9A239A79EAD82E81BFE6 /* QuestCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3157A2A693DC77C48128C2 /* QuestCardView.swift */; };
+		37F2BCCC6FFAC8973A1AF2A1 /* DemoFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F0AF70CC8DABFA06F0E39 /* DemoFlowUITests.swift */; };
+		397E03CA0F9A5E95B4DFF80E /* Progression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE263AC2FC95EF734E7698 /* Progression.swift */; };
+		3B0EE34FD83BFE8C6E3F3D80 /* FaceRedactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FC37AE13281B6691A298D /* FaceRedactor.swift */; };
+		3B86DD7BEE3716B537EB2E82 /* AIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022A5EF1ECDA355EF26E3A4 /* AIProvider.swift */; };
+		4159DB9530B6F5B9F99C9B88 /* MoneyRulesValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FC339450AAAAFD8DC2D00 /* MoneyRulesValidatorTests.swift */; };
+		446391AACEA7C0CF65059AA0 /* VenueContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD53E29578436B101133009 /* VenueContext.swift */; };
+		488F46E0243D5332EC165786 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699C87F40963C5ACE476D1F /* OnboardingView.swift */; };
+		4922985442642F440E8442A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624B55BB3120CBC103F11DB /* HomeView.swift */; };
+		4FAB1E9A5FD94C98809BBA57 /* AIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC677A6670FADDB4F5339B9 /* AIConfig.swift */; };
+		50BE39B10EC95FC9D7D3C96F /* ScopeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BE21FA5938E90A984E5F29 /* ScopeSheet.swift */; };
+		55AB751CB9B9B04D8C5B9AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172D30DF48B9BF98D899CF64 /* Assets.xcassets */; };
+		5A9ED4560A07004F68C66E5C /* TriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89738DC9A90FC707C0202D8 /* TriesTests.swift */; };
+		5D5179D4A4D3F3A7F17A2926 /* JSONValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC357AEA8C21FECD4511BF /* JSONValidationTests.swift */; };
+		5F2E32E0CF2ED43CD090E98D /* GeminiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B14553A36DE3510953A33E3 /* GeminiProvider.swift */; };
+		5F373BB83B125EE80F8B5ED3 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5B948D7BD98D20733B160 /* WeatherService.swift */; };
+		64BEF2B9C8DB91F42BA1C6F9 /* ClaudeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198CBE4BA2851D507AD03752 /* ClaudeProvider.swift */; };
+		65A3D7994C5FFE5D06A97D7F /* debug_test_unsure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1518EAA3219A17B670C1FB4 /* debug_test_unsure.jpg */; };
+		68FB498740048525957E641E /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97B4E34FF802BC82186AD5 /* Haptics.swift */; };
+		6C04863E7D6EC6DC1B5A6C02 /* MarketingSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A70C9009DBA4EF375837A /* MarketingSeed.swift */; };
+		72616EF109E4B3CF6C4F9788 /* QuestSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804CBA4626C2D69C7FD305B /* QuestSessionView.swift */; };
+		794FF20224EA88D3E1ED7E3B /* DeviceServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450765DDF612017DE67E1777 /* DeviceServicesTests.swift */; };
+		87D9514C705A817A81830FA4 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EFCE79BC8F6022DCF29B2 /* AppSettings.swift */; };
+		8DEA5F123B73D8F310EB7059 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44953814F978859427EA7A /* ImageProcessor.swift */; };
+		8E4FAE3B591EE95E425D7BF4 /* SideQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773AC4F133CBEBED48E4CAC0 /* SideQuestApp.swift */; };
+		92F6BEFBDFE6870C34ABFB48 /* MapsLauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F62FDA5216F9F13FEEFC80 /* MapsLauncherTests.swift */; };
+		9801EAD87257E9EB52123931 /* DebugMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771974ED1783B8FFEFE5C0EB /* DebugMenuView.swift */; };
+		9BF766B1D0E7B6D45EE7F59B /* QuestContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB71AE60867ECBC17682E1B /* QuestContext.swift */; };
+		A217AE5042818BC363F696BC /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB9BEF17D377E813FA7E0F /* Quest.swift */; };
+		A6C2221C1F096082813FE6A4 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430700627449817F5398EED2 /* LocationService.swift */; };
+		ADBE95F5404ED127DFEAD478 /* MockAIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396581A06CB7B327444B727 /* MockAIProvider.swift */; };
+		AEC277AD3E676626521AE57F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26CB16840AE739E8B29AE2F /* ResultView.swift */; };
+		AF2ABFD5690FD5A1BAF42642 /* Verdict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3063A7DF3E4AE8EEC8FA38 /* Verdict.swift */; };
+		AFFDD0B806CFF19691FE3090 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C5DDF7C38668FA3A9DD31 /* JSONValue.swift */; };
+		B15BEC4FD4B8DADB28CEA8C0 /* PhotoReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A82D7FE543827173E5EF5 /* PhotoReviewView.swift */; };
+		B605015CE8E38820BC455F99 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB23B74CC0BE936F4345052 /* SettingsView.swift */; };
+		B95BE7AA73171D75D72299D0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B92576ED0C279AC7A413AD /* Models.swift */; };
+		C15B97C6D567068FE5CCE502 /* Geofence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33AA1E47D0A78DED8E9DE48 /* Geofence.swift */; };
+		C22630A309EC9B328135CFA1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40830EC68806CD724EE65313 /* RootView.swift */; };
+		C4D2D3684C8D5D3C613602F6 /* QuestJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A629C91E9647C502C5B21D7D /* QuestJSON.swift */; };
+		C59CEFDB7C057FC87F91F4B7 /* QuestEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CB8F55440C192094DDEF8 /* QuestEngine.swift */; };
+		C9F823CBBFB2C030947F3212 /* MarketingScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4689B018A0D96C2F68EB17 /* MarketingScreenshotTests.swift */; };
+		CACFD94E39CD33DED0C32691 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41B3C9F5D98DB9644EA59 /* ProgressStore.swift */; };
+		CF55CF5DB996BD8174A65BAE /* SafetyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4E0750A719E4ED67DA6AE /* SafetyValidator.swift */; };
+		D062F8E88BBEAB0A1D0F55B6 /* TestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F84EBCE262D249F412C405C /* TestSupport.swift */; };
+		D2FB9AC8ABAB2C4E71B799CD /* QuestRulesValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407DA9C8D5C7FB07F574A44 /* QuestRulesValidator.swift */; };
+		D4A36B8DF9E869799696C7DD /* MapsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE988E79CC7403C77660641 /* MapsLauncher.swift */; };
+		D6EF7427B55BA25D49184DEB /* debug_test_pass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6D36B9B70C94DA65FE05AB /* debug_test_pass.jpg */; };
+		DAEB42B5FE0D345C0A7526E2 /* MoneyRulesValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E09137834E9902882BBCB /* MoneyRulesValidator.swift */; };
+		DE6171A6510B9510063F736B /* QuestEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0BE36FF8588AD4755F160 /* QuestEngineTests.swift */; };
+		EDD810CCFD7EA63F51819CDD /* QuestFlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD92CFD9E91D880A28EEA62 /* QuestFlowModel.swift */; };
+		EF185562DD0A8EF7A6287F22 /* PeopleDifficultyAndPrivacyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E373C0D8D646EEB4C469A /* PeopleDifficultyAndPrivacyTests.swift */; };
+		F1CAE8B1228EA99519427B81 /* AnthropicClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F5211657F22914486B9BE4 /* AnthropicClient.swift */; };
+		F29B80002AC775A573C6F528 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D481649C4CFE53B17C61F0 /* Theme.swift */; };
+		F2E1925325EA327F95251B5F /* debug_test_fail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A08DF64589963C516A484B95 /* debug_test_fail.jpg */; };
+		F825E8977687D0E675076388 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B33B39A67E9B19DCAADF6 /* HistoryView.swift */; };
+		F8F9C87E273FE991D1C93B40 /* AIUsageTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C996334844E67FDD7A71F600 /* AIUsageTracker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		265915861DCB3C63E3A7EDBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B51570C63A014FD6B9CBB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFF93CDB4327F434C09E93D;
+			remoteInfo = SideQuest;
+		};
+		47E50A09E9A2074A56629AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B51570C63A014FD6B9CBB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFF93CDB4327F434C09E93D;
+			remoteInfo = SideQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0065A26E71484ADD9FF9FA56 /* MultiPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPhotoTests.swift; sourceTree = "<group>"; };
+		05580410F97972951BB77358 /* London-CoventGarden.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "London-CoventGarden.gpx"; sourceTree = "<group>"; };
+		08F62FDA5216F9F13FEEFC80 /* MapsLauncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsLauncherTests.swift; sourceTree = "<group>"; };
+		0AB23B74CC0BE936F4345052 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0F84EBCE262D249F412C405C /* TestSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupport.swift; sourceTree = "<group>"; };
+		1019979B57FD350483072F60 /* ProgressionAndGeofenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionAndGeofenceTests.swift; sourceTree = "<group>"; };
+		142EFCE79BC8F6022DCF29B2 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		172D30DF48B9BF98D899CF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17F5B948D7BD98D20733B160 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		198CBE4BA2851D507AD03752 /* ClaudeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeProvider.swift; sourceTree = "<group>"; };
+		199A70C9009DBA4EF375837A /* MarketingSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketingSeed.swift; sourceTree = "<group>"; };
+		1B14553A36DE3510953A33E3 /* GeminiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiProvider.swift; sourceTree = "<group>"; };
+		1D4689B018A0D96C2F68EB17 /* MarketingScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketingScreenshotTests.swift; sourceTree = "<group>"; };
+		22EE263AC2FC95EF734E7698 /* Progression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progression.swift; sourceTree = "<group>"; };
+		231B31CADA457417DBA0182E /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		286E09137834E9902882BBCB /* MoneyRulesValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyRulesValidator.swift; sourceTree = "<group>"; };
+		289993201EA975F5105BA8EC /* London-SouthKensington.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "London-SouthKensington.gpx"; sourceTree = "<group>"; };
+		289B33B39A67E9B19DCAADF6 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		2BD53E29578436B101133009 /* VenueContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueContext.swift; sourceTree = "<group>"; };
+		2C2E373C0D8D646EEB4C469A /* PeopleDifficultyAndPrivacyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDifficultyAndPrivacyTests.swift; sourceTree = "<group>"; };
+		33B92576ED0C279AC7A413AD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3624B55BB3120CBC103F11DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3E97B4E34FF802BC82186AD5 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		3EE988E79CC7403C77660641 /* MapsLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsLauncher.swift; sourceTree = "<group>"; };
+		40830EC68806CD724EE65313 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		410FC37AE13281B6691A298D /* FaceRedactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRedactor.swift; sourceTree = "<group>"; };
+		42FB9BEF17D377E813FA7E0F /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		430700627449817F5398EED2 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		450765DDF612017DE67E1777 /* DeviceServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceServicesTests.swift; sourceTree = "<group>"; };
+		494BAD087DB74565F1451269 /* QuestPrompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestPrompts.swift; sourceTree = "<group>"; };
+		4BF505BBEA382F1C8EE4AEDE /* GeminiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiClient.swift; sourceTree = "<group>"; };
+		5A7A82D7FE543827173E5EF5 /* PhotoReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoReviewView.swift; sourceTree = "<group>"; };
+		5B0CB8F55440C192094DDEF8 /* QuestEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestEngine.swift; sourceTree = "<group>"; };
+		5DCC357AEA8C21FECD4511BF /* JSONValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValidationTests.swift; sourceTree = "<group>"; };
+		6407DA9C8D5C7FB07F574A44 /* QuestRulesValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestRulesValidator.swift; sourceTree = "<group>"; };
+		64D481649C4CFE53B17C61F0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6899680F4C8FB2A7ED30A837 /* SafetyAndPlaceValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyAndPlaceValidatorTests.swift; sourceTree = "<group>"; };
+		69E3A0E09126D7308FF7F6F2 /* London-WalkToBritishMuseum.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "London-WalkToBritishMuseum.gpx"; sourceTree = "<group>"; };
+		720C3CFC4492734E07A58A58 /* SideQuestTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SideQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		771974ED1783B8FFEFE5C0EB /* DebugMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugMenuView.swift; sourceTree = "<group>"; };
+		773AC4F133CBEBED48E4CAC0 /* SideQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideQuestApp.swift; sourceTree = "<group>"; };
+		7BB71AE60867ECBC17682E1B /* QuestContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestContext.swift; sourceTree = "<group>"; };
+		7C6D36B9B70C94DA65FE05AB /* debug_test_pass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = debug_test_pass.jpg; sourceTree = "<group>"; };
+		7F3063A7DF3E4AE8EEC8FA38 /* Verdict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verdict.swift; sourceTree = "<group>"; };
+		8022A5EF1ECDA355EF26E3A4 /* AIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProvider.swift; sourceTree = "<group>"; };
+		8699C87F40963C5ACE476D1F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8BC677A6670FADDB4F5339B9 /* AIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConfig.swift; sourceTree = "<group>"; };
+		8D8CBB13DCCC5595F3415102 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		971FC339450AAAAFD8DC2D00 /* MoneyRulesValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyRulesValidatorTests.swift; sourceTree = "<group>"; };
+		A08DF64589963C516A484B95 /* debug_test_fail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = debug_test_fail.jpg; sourceTree = "<group>"; };
+		A0D4E0750A719E4ED67DA6AE /* SafetyValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyValidator.swift; sourceTree = "<group>"; };
+		A39F1FD4010A0812FD0CB95A /* SideQuestUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SideQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A629C91E9647C502C5B21D7D /* QuestJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestJSON.swift; sourceTree = "<group>"; };
+		AB035582649930C7149C3774 /* PhotoModeAndTimeTrialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModeAndTimeTrialTests.swift; sourceTree = "<group>"; };
+		AC0F0AF70CC8DABFA06F0E39 /* DemoFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFlowUITests.swift; sourceTree = "<group>"; };
+		B1518EAA3219A17B670C1FB4 /* debug_test_unsure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = debug_test_unsure.jpg; sourceTree = "<group>"; };
+		BC097A17ACD6C94B42F8F1A0 /* QuestSchemas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestSchemas.swift; sourceTree = "<group>"; };
+		BC44953814F978859427EA7A /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		BFF0630B54AAF620063C0F5E /* AnthropicClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnthropicClientTests.swift; sourceTree = "<group>"; };
+		C996334844E67FDD7A71F600 /* AIUsageTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIUsageTracker.swift; sourceTree = "<group>"; };
+		CBE41B3C9F5D98DB9644EA59 /* ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
+		D2BE21FA5938E90A984E5F29 /* ScopeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeSheet.swift; sourceTree = "<group>"; };
+		DB3157A2A693DC77C48128C2 /* QuestCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestCardView.swift; sourceTree = "<group>"; };
+		E1F5211657F22914486B9BE4 /* AnthropicClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnthropicClient.swift; sourceTree = "<group>"; };
+		E26CB16840AE739E8B29AE2F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		E35A01541A8747DD4168E4C3 /* PlacesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesService.swift; sourceTree = "<group>"; };
+		E396581A06CB7B327444B727 /* MockAIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAIProvider.swift; sourceTree = "<group>"; };
+		E804CBA4626C2D69C7FD305B /* QuestSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestSessionView.swift; sourceTree = "<group>"; };
+		E9C0BE36FF8588AD4755F160 /* QuestEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestEngineTests.swift; sourceTree = "<group>"; };
+		EC5C5DDF7C38668FA3A9DD31 /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		EEBDA365EB196BBCED33BEFB /* QuestViolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViolation.swift; sourceTree = "<group>"; };
+		EFD92CFD9E91D880A28EEA62 /* QuestFlowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestFlowModel.swift; sourceTree = "<group>"; };
+		F33AA1E47D0A78DED8E9DE48 /* Geofence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geofence.swift; sourceTree = "<group>"; };
+		F350F754EE2DAE03CCD7AF23 /* SideQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D64D7E0CEDA17535EF5351 /* PerceptualHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerceptualHash.swift; sourceTree = "<group>"; };
+		F89738DC9A90FC707C0202D8 /* TriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriesTests.swift; sourceTree = "<group>"; };
+		FE63A75191DFBE9704E76F9B /* QuestOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestOptions.swift; sourceTree = "<group>"; };
+		FED28D39AAD2EA27810D13A0 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		065F6869606E40EDEB8CA597 /* DebugTestPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				A08DF64589963C516A484B95 /* debug_test_fail.jpg */,
+				7C6D36B9B70C94DA65FE05AB /* debug_test_pass.jpg */,
+				B1518EAA3219A17B670C1FB4 /* debug_test_unsure.jpg */,
+			);
+			path = DebugTestPhotos;
+			sourceTree = "<group>";
+		};
+		0A5AB09847BFF9E1A0E5936F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8BC677A6670FADDB4F5339B9 /* AIConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0E42CAB146C8FC44C86770AF /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				8022A5EF1ECDA355EF26E3A4 /* AIProvider.swift */,
+				EC5C5DDF7C38668FA3A9DD31 /* JSONValue.swift */,
+				494BAD087DB74565F1451269 /* QuestPrompts.swift */,
+				BC097A17ACD6C94B42F8F1A0 /* QuestSchemas.swift */,
+				C245FE8391EDB99DD3B998F5 /* Claude */,
+				47595E38ADB097CC5209C3C3 /* Gemini */,
+				5FCA466B8753D772D2BC9A30 /* Mock */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		1174372B7FA275198E148557 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				286E09137834E9902882BBCB /* MoneyRulesValidator.swift */,
+				A629C91E9647C502C5B21D7D /* QuestJSON.swift */,
+				6407DA9C8D5C7FB07F574A44 /* QuestRulesValidator.swift */,
+				EEBDA365EB196BBCED33BEFB /* QuestViolation.swift */,
+				A0D4E0750A719E4ED67DA6AE /* SafetyValidator.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		30F97C1DC1B7EEDA2E7B880B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C996334844E67FDD7A71F600 /* AIUsageTracker.swift */,
+				410FC37AE13281B6691A298D /* FaceRedactor.swift */,
+				F33AA1E47D0A78DED8E9DE48 /* Geofence.swift */,
+				3E97B4E34FF802BC82186AD5 /* Haptics.swift */,
+				BC44953814F978859427EA7A /* ImageProcessor.swift */,
+				FED28D39AAD2EA27810D13A0 /* KeychainStore.swift */,
+				430700627449817F5398EED2 /* LocationService.swift */,
+				3EE988E79CC7403C77660641 /* MapsLauncher.swift */,
+				199A70C9009DBA4EF375837A /* MarketingSeed.swift */,
+				F7D64D7E0CEDA17535EF5351 /* PerceptualHash.swift */,
+				E35A01541A8747DD4168E4C3 /* PlacesService.swift */,
+				5B0CB8F55440C192094DDEF8 /* QuestEngine.swift */,
+				17F5B948D7BD98D20733B160 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		33A387E152D9B9B107D3153F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8699C87F40963C5ACE476D1F /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		34144BC2F9FAAE2B935862C3 /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				231B31CADA457417DBA0182E /* CameraPicker.swift */,
+				5A7A82D7FE543827173E5EF5 /* PhotoReviewView.swift */,
+				DB3157A2A693DC77C48128C2 /* QuestCardView.swift */,
+				E804CBA4626C2D69C7FD305B /* QuestSessionView.swift */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
+		34EF3E6FFFB8532A6E081333 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				64D481649C4CFE53B17C61F0 /* Theme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		46422B9C27E9AD198BD6EAB9 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				33B92576ED0C279AC7A413AD /* Models.swift */,
+				CBE41B3C9F5D98DB9644EA59 /* ProgressStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		47595E38ADB097CC5209C3C3 /* Gemini */ = {
+			isa = PBXGroup;
+			children = (
+				4BF505BBEA382F1C8EE4AEDE /* GeminiClient.swift */,
+				1B14553A36DE3510953A33E3 /* GeminiProvider.swift */,
+			);
+			path = Gemini;
+			sourceTree = "<group>";
+		};
+		57B44D8E923EF52145DAF107 /* SideQuest */ = {
+			isa = PBXGroup;
+			children = (
+				0E42CAB146C8FC44C86770AF /* AI */,
+				C670A1BADF44B903A6111959 /* App */,
+				0A5AB09847BFF9E1A0E5936F /* Config */,
+				75B258CAF6D16CC4DA9C0719 /* Models */,
+				46422B9C27E9AD198BD6EAB9 /* Persistence */,
+				E544023EE0B723C3BCAD64B1 /* Progression */,
+				B50C21A97E69DFD4659CC8C2 /* Resources */,
+				30F97C1DC1B7EEDA2E7B880B /* Services */,
+				1174372B7FA275198E148557 /* Validation */,
+				EAA8AAC6255D01CF9848D091 /* Views */,
+			);
+			path = SideQuest;
+			sourceTree = "<group>";
+		};
+		5FCA466B8753D772D2BC9A30 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				E396581A06CB7B327444B727 /* MockAIProvider.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		75B258CAF6D16CC4DA9C0719 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42FB9BEF17D377E813FA7E0F /* Quest.swift */,
+				7BB71AE60867ECBC17682E1B /* QuestContext.swift */,
+				FE63A75191DFBE9704E76F9B /* QuestOptions.swift */,
+				2BD53E29578436B101133009 /* VenueContext.swift */,
+				7F3063A7DF3E4AE8EEC8FA38 /* Verdict.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D0CD90C5C39C10B7285CAEF /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				05580410F97972951BB77358 /* London-CoventGarden.gpx */,
+				289993201EA975F5105BA8EC /* London-SouthKensington.gpx */,
+				69E3A0E09126D7308FF7F6F2 /* London-WalkToBritishMuseum.gpx */,
+			);
+			path = GPX;
+			sourceTree = "<group>";
+		};
+		7FA48FAC810CABA0CFB0F800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F350F754EE2DAE03CCD7AF23 /* SideQuest.app */,
+				720C3CFC4492734E07A58A58 /* SideQuestTests.xctest */,
+				A39F1FD4010A0812FD0CB95A /* SideQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9515F30519D74804B68290EC /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				E26CB16840AE739E8B29AE2F /* ResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		A5C7FACED94627EA7199C702 = {
+			isa = PBXGroup;
+			children = (
+				8D8CBB13DCCC5595F3415102 /* README.md */,
+				7D0CD90C5C39C10B7285CAEF /* GPX */,
+				57B44D8E923EF52145DAF107 /* SideQuest */,
+				B536C635532435D595457205 /* SideQuestTests */,
+				B5B318F4869F7E511920D7E3 /* SideQuestUITests */,
+				7FA48FAC810CABA0CFB0F800 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50C21A97E69DFD4659CC8C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				172D30DF48B9BF98D899CF64 /* Assets.xcassets */,
+				065F6869606E40EDEB8CA597 /* DebugTestPhotos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B536C635532435D595457205 /* SideQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF0630B54AAF620063C0F5E /* AnthropicClientTests.swift */,
+				450765DDF612017DE67E1777 /* DeviceServicesTests.swift */,
+				5DCC357AEA8C21FECD4511BF /* JSONValidationTests.swift */,
+				08F62FDA5216F9F13FEEFC80 /* MapsLauncherTests.swift */,
+				971FC339450AAAAFD8DC2D00 /* MoneyRulesValidatorTests.swift */,
+				0065A26E71484ADD9FF9FA56 /* MultiPhotoTests.swift */,
+				2C2E373C0D8D646EEB4C469A /* PeopleDifficultyAndPrivacyTests.swift */,
+				AB035582649930C7149C3774 /* PhotoModeAndTimeTrialTests.swift */,
+				1019979B57FD350483072F60 /* ProgressionAndGeofenceTests.swift */,
+				E9C0BE36FF8588AD4755F160 /* QuestEngineTests.swift */,
+				6899680F4C8FB2A7ED30A837 /* SafetyAndPlaceValidatorTests.swift */,
+				0F84EBCE262D249F412C405C /* TestSupport.swift */,
+				F89738DC9A90FC707C0202D8 /* TriesTests.swift */,
+			);
+			path = SideQuestTests;
+			sourceTree = "<group>";
+		};
+		B5B318F4869F7E511920D7E3 /* SideQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0F0AF70CC8DABFA06F0E39 /* DemoFlowUITests.swift */,
+				1D4689B018A0D96C2F68EB17 /* MarketingScreenshotTests.swift */,
+			);
+			path = SideQuestUITests;
+			sourceTree = "<group>";
+		};
+		BAAF7D7AD3891754ADF1D1D0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3624B55BB3120CBC103F11DB /* HomeView.swift */,
+				D2BE21FA5938E90A984E5F29 /* ScopeSheet.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BE83D7448E0A73155733412C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				771974ED1783B8FFEFE5C0EB /* DebugMenuView.swift */,
+				0AB23B74CC0BE936F4345052 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C245FE8391EDB99DD3B998F5 /* Claude */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5211657F22914486B9BE4 /* AnthropicClient.swift */,
+				198CBE4BA2851D507AD03752 /* ClaudeProvider.swift */,
+			);
+			path = Claude;
+			sourceTree = "<group>";
+		};
+		C670A1BADF44B903A6111959 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				142EFCE79BC8F6022DCF29B2 /* AppSettings.swift */,
+				EFD92CFD9E91D880A28EEA62 /* QuestFlowModel.swift */,
+				773AC4F133CBEBED48E4CAC0 /* SideQuestApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E544023EE0B723C3BCAD64B1 /* Progression */ = {
+			isa = PBXGroup;
+			children = (
+				22EE263AC2FC95EF734E7698 /* Progression.swift */,
+			);
+			path = Progression;
+			sourceTree = "<group>";
+		};
+		E86CA474FC784A079CA42BB9 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				289B33B39A67E9B19DCAADF6 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		EAA8AAC6255D01CF9848D091 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40830EC68806CD724EE65313 /* RootView.swift */,
+				E86CA474FC784A079CA42BB9 /* History */,
+				BAAF7D7AD3891754ADF1D1D0 /* Home */,
+				33A387E152D9B9B107D3153F /* Onboarding */,
+				34144BC2F9FAAE2B935862C3 /* Quest */,
+				9515F30519D74804B68290EC /* Result */,
+				BE83D7448E0A73155733412C /* Settings */,
+				34EF3E6FFFB8532A6E081333 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71DDD2B8DE44A334BB875BED /* SideQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F509B00CB65F7950796697F4 /* Build configuration list for PBXNativeTarget "SideQuestTests" */;
+			buildPhases = (
+				10086931F689C4580C30F813 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0E40F3C681CA3257D303D9 /* PBXTargetDependency */,
+			);
+			name = SideQuestTests;
+			packageProductDependencies = (
+			);
+			productName = SideQuestTests;
+			productReference = 720C3CFC4492734E07A58A58 /* SideQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AFF93CDB4327F434C09E93D /* SideQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4F41E11D126C4DD14FAF54 /* Build configuration list for PBXNativeTarget "SideQuest" */;
+			buildPhases = (
+				A7A6601B84A00405578FAF8D /* Sources */,
+				7A35CC8D440A4D648877646C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideQuest;
+			packageProductDependencies = (
+			);
+			productName = SideQuest;
+			productReference = F350F754EE2DAE03CCD7AF23 /* SideQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A55C6BEAFE27923D205268A6 /* SideQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6E56C2D619B2AFE5DBE974 /* Build configuration list for PBXNativeTarget "SideQuestUITests" */;
+			buildPhases = (
+				D0014C2A9909F81AD07CF1F2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AFB2996FA356380CC81084 /* PBXTargetDependency */,
+			);
+			name = SideQuestUITests;
+			packageProductDependencies = (
+			);
+			productName = SideQuestUITests;
+			productReference = A39F1FD4010A0812FD0CB95A /* SideQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64B51570C63A014FD6B9CBB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8AFF93CDB4327F434C09E93D = {
+						ProvisioningStyle = Automatic;
+					};
+					A55C6BEAFE27923D205268A6 = {
+						TestTargetID = 8AFF93CDB4327F434C09E93D;
+					};
+				};
+			};
+			buildConfigurationList = F1B0BC4FE65B3436321C5583 /* Build configuration list for PBXProject "SideQuest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A5C7FACED94627EA7199C702;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7FA48FAC810CABA0CFB0F800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AFF93CDB4327F434C09E93D /* SideQuest */,
+				71DDD2B8DE44A334BB875BED /* SideQuestTests */,
+				A55C6BEAFE27923D205268A6 /* SideQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A35CC8D440A4D648877646C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AB751CB9B9B04D8C5B9AF6 /* Assets.xcassets in Resources */,
+				F2E1925325EA327F95251B5F /* debug_test_fail.jpg in Resources */,
+				D6EF7427B55BA25D49184DEB /* debug_test_pass.jpg in Resources */,
+				65A3D7994C5FFE5D06A97D7F /* debug_test_unsure.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10086931F689C4580C30F813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D97FDD7CB27C09C93F8B52F /* AnthropicClientTests.swift in Sources */,
+				794FF20224EA88D3E1ED7E3B /* DeviceServicesTests.swift in Sources */,
+				5D5179D4A4D3F3A7F17A2926 /* JSONValidationTests.swift in Sources */,
+				92F6BEFBDFE6870C34ABFB48 /* MapsLauncherTests.swift in Sources */,
+				4159DB9530B6F5B9F99C9B88 /* MoneyRulesValidatorTests.swift in Sources */,
+				237FED0845A51CAF99877CF4 /* MultiPhotoTests.swift in Sources */,
+				EF185562DD0A8EF7A6287F22 /* PeopleDifficultyAndPrivacyTests.swift in Sources */,
+				25C6C20D2259AAE97E38172D /* PhotoModeAndTimeTrialTests.swift in Sources */,
+				00830C00D0E5B5770A30C918 /* ProgressionAndGeofenceTests.swift in Sources */,
+				DE6171A6510B9510063F736B /* QuestEngineTests.swift in Sources */,
+				25DCDBD4C46F2C959E791504 /* SafetyAndPlaceValidatorTests.swift in Sources */,
+				D062F8E88BBEAB0A1D0F55B6 /* TestSupport.swift in Sources */,
+				5A9ED4560A07004F68C66E5C /* TriesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A6601B84A00405578FAF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAB1E9A5FD94C98809BBA57 /* AIConfig.swift in Sources */,
+				3B86DD7BEE3716B537EB2E82 /* AIProvider.swift in Sources */,
+				F8F9C87E273FE991D1C93B40 /* AIUsageTracker.swift in Sources */,
+				F1CAE8B1228EA99519427B81 /* AnthropicClient.swift in Sources */,
+				87D9514C705A817A81830FA4 /* AppSettings.swift in Sources */,
+				13BC30C55FD5CF4FDCBF0D9B /* CameraPicker.swift in Sources */,
+				64BEF2B9C8DB91F42BA1C6F9 /* ClaudeProvider.swift in Sources */,
+				9801EAD87257E9EB52123931 /* DebugMenuView.swift in Sources */,
+				3B0EE34FD83BFE8C6E3F3D80 /* FaceRedactor.swift in Sources */,
+				04468BE854795C9748C48D06 /* GeminiClient.swift in Sources */,
+				5F2E32E0CF2ED43CD090E98D /* GeminiProvider.swift in Sources */,
+				C15B97C6D567068FE5CCE502 /* Geofence.swift in Sources */,
+				68FB498740048525957E641E /* Haptics.swift in Sources */,
+				F825E8977687D0E675076388 /* HistoryView.swift in Sources */,
+				4922985442642F440E8442A6 /* HomeView.swift in Sources */,
+				8DEA5F123B73D8F310EB7059 /* ImageProcessor.swift in Sources */,
+				AFFDD0B806CFF19691FE3090 /* JSONValue.swift in Sources */,
+				232AF9E390EDAA4B9D756F0B /* KeychainStore.swift in Sources */,
+				A6C2221C1F096082813FE6A4 /* LocationService.swift in Sources */,
+				D4A36B8DF9E869799696C7DD /* MapsLauncher.swift in Sources */,
+				6C04863E7D6EC6DC1B5A6C02 /* MarketingSeed.swift in Sources */,
+				ADBE95F5404ED127DFEAD478 /* MockAIProvider.swift in Sources */,
+				B95BE7AA73171D75D72299D0 /* Models.swift in Sources */,
+				DAEB42B5FE0D345C0A7526E2 /* MoneyRulesValidator.swift in Sources */,
+				488F46E0243D5332EC165786 /* OnboardingView.swift in Sources */,
+				16ACD152196B1CDBDE619170 /* PerceptualHash.swift in Sources */,
+				B15BEC4FD4B8DADB28CEA8C0 /* PhotoReviewView.swift in Sources */,
+				1633972A7B199A1B93261486 /* PlacesService.swift in Sources */,
+				CACFD94E39CD33DED0C32691 /* ProgressStore.swift in Sources */,
+				397E03CA0F9A5E95B4DFF80E /* Progression.swift in Sources */,
+				A217AE5042818BC363F696BC /* Quest.swift in Sources */,
+				322A9A239A79EAD82E81BFE6 /* QuestCardView.swift in Sources */,
+				9BF766B1D0E7B6D45EE7F59B /* QuestContext.swift in Sources */,
+				C59CEFDB7C057FC87F91F4B7 /* QuestEngine.swift in Sources */,
+				EDD810CCFD7EA63F51819CDD /* QuestFlowModel.swift in Sources */,
+				C4D2D3684C8D5D3C613602F6 /* QuestJSON.swift in Sources */,
+				243B5A2CB0BC1995B72EAA49 /* QuestOptions.swift in Sources */,
+				071F6CAF272B68A66716BA8E /* QuestPrompts.swift in Sources */,
+				D2FB9AC8ABAB2C4E71B799CD /* QuestRulesValidator.swift in Sources */,
+				2A989A5D67084DBFADEF0247 /* QuestSchemas.swift in Sources */,
+				72616EF109E4B3CF6C4F9788 /* QuestSessionView.swift in Sources */,
+				312CBC951D678289F0210924 /* QuestViolation.swift in Sources */,
+				AEC277AD3E676626521AE57F /* ResultView.swift in Sources */,
+				C22630A309EC9B328135CFA1 /* RootView.swift in Sources */,
+				CF55CF5DB996BD8174A65BAE /* SafetyValidator.swift in Sources */,
+				50BE39B10EC95FC9D7D3C96F /* ScopeSheet.swift in Sources */,
+				B605015CE8E38820BC455F99 /* SettingsView.swift in Sources */,
+				8E4FAE3B591EE95E425D7BF4 /* SideQuestApp.swift in Sources */,
+				F29B80002AC775A573C6F528 /* Theme.swift in Sources */,
+				446391AACEA7C0CF65059AA0 /* VenueContext.swift in Sources */,
+				AF2ABFD5690FD5A1BAF42642 /* Verdict.swift in Sources */,
+				5F373BB83B125EE80F8B5ED3 /* WeatherService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0014C2A9909F81AD07CF1F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F2BCCC6FFAC8973A1AF2A1 /* DemoFlowUITests.swift in Sources */,
+				C9F823CBBFB2C030947F3212 /* MarketingScreenshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4AFB2996FA356380CC81084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFF93CDB4327F434C09E93D /* SideQuest */;
+			targetProxy = 47E50A09E9A2074A56629AC3 /* PBXContainerItemProxy */;
+		};
+		FF0E40F3C681CA3257D303D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFF93CDB4327F434C09E93D /* SideQuest */;
+			targetProxy = 265915861DCB3C63E3A7EDBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BABB729E354E5D868123FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sidequest.SideQuestTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideQuest.app/SideQuest";
+			};
+			name = Release;
+		};
+		2FC88F3FAE0BB73EBB0178CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sidequest.SideQuestUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SideQuest;
+			};
+			name = Debug;
+		};
+		31DD80120F84B0CCD8048D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		468DECD01B1AB457BB9E4027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sidequest.SideQuestUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SideQuest;
+			};
+			name = Release;
+		};
+		848A98C01142822CAD330BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE4BC90E478CD683E7DC4748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sidequest.SideQuestTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideQuest.app/SideQuest";
+			};
+			name = Debug;
+		};
+		C59E40CE4673758098BE33D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2F8RHVNN6;
+				EXCLUDED_SOURCE_FILE_NAMES = "debug_test_*";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Detour;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Detour uses the camera so you can snap a photo to complete your quest. A photo is only taken when you tap the shutter.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Detour uses your location only while the app is open, to find real places near you for quests and to check you're near the quest spot when you snap your photo. Your exact coordinates are never sent to the AI.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sidequest.SideQuest;
+				PRODUCT_NAME = SideQuest;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FDDAE7F858B407B09863A2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2F8RHVNN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Detour;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Detour uses the camera so you can snap a photo to complete your quest. A photo is only taken when you tap the shutter.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Detour uses your location only while the app is open, to find real places near you for quests and to check you're near the quest spot when you snap your photo. Your exact coordinates are never sent to the AI.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sidequest.SideQuest;
+				PRODUCT_NAME = SideQuest;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A6E56C2D619B2AFE5DBE974 /* Build configuration list for PBXNativeTarget "SideQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC88F3FAE0BB73EBB0178CC /* Debug */,
+				468DECD01B1AB457BB9E4027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC4F41E11D126C4DD14FAF54 /* Build configuration list for PBXNativeTarget "SideQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDAE7F858B407B09863A2B5 /* Debug */,
+				C59E40CE4673758098BE33D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1B0BC4FE65B3436321C5583 /* Build configuration list for PBXProject "SideQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DD80120F84B0CCD8048D0B /* Debug */,
+				848A98C01142822CAD330BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F509B00CB65F7950796697F4 /* Build configuration list for PBXNativeTarget "SideQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4BC90E478CD683E7DC4748 /* Debug */,
+				2BABB729E354E5D868123FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64B51570C63A014FD6B9CBB5 /* Project object */;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- A slow walk from Covent Garden to the British Museum, to test the geofence check. -->
+<gpx version="1.1" creator="SideQuest">
+    <wpt lat="51.51174" lon="-0.12302"><time>2026-01-01T12:00:00Z</time></wpt>
+    <wpt lat="51.51340" lon="-0.12455"><time>2026-01-01T12:02:00Z</time></wpt>
+    <wpt lat="51.51530" lon="-0.12560"><time>2026-01-01T12:04:00Z</time></wpt>
+    <wpt lat="51.51690" lon="-0.12640"><time>2026-01-01T12:06:00Z</time></wpt>
+    <wpt lat="51.51860" lon="-0.12700"><time>2026-01-01T12:08:00Z</time></wpt>
+    <wpt lat="51.51940" lon="-0.12695"><time>2026-01-01T12:10:00Z</time></wpt>
+</gpx>
