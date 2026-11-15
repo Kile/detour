@@ -18,7 +18,7 @@ Most days we walk the same routes and sit in the same corner of the venue. Games
 ## What it does
 Tap the button and you get a quest for where you are: the venue you're at, the streets nearby (real places from Apple Maps) or the wider city. If the quest points to a specific place, one tap opens directions in Apple Maps or Google Maps. Do it, take a photo, and an AI checks the photo. It's lenient on purpose, and if it's unsure you can just count it.
 
-There are five difficulty levels. Easy might be finding an old vase in an antique shop. Hard is more like finding a table with at least 15 cans on it.
+You pick easy, medium or hard. Easy might be finding an old vase in an antique shop. Hard is more like finding a table with at least 15 cans on it.
 
 There's also a photo challenge mode that uses the current weather (if it's raining it might ask for a street shot with an umbrella in it), an optional time trial where the timer depends on difficulty and distance, and an opt-in setting for quests involving other people, like finding someone who's had 5 Monsters today.
 

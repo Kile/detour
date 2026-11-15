@@ -35,6 +35,11 @@ final class DemoFlowUITests: XCTestCase {
         element.tap()
     }
 
+    /// Nearby/City need a location; the scheme's simulated one isn't always applied, so set it (Covent Garden).
+    func useLondonLocation() {
+        XCUIDevice.shared.location = XCUILocation(location: CLLocation(latitude: 51.51174, longitude: -0.12302))
+    }
+
     func finishOnboardingInDemoMode() {
         XCTAssertTrue(app.buttons["Next"].waitForExistence(timeout: 5))
         shot("01-onboarding")
@@ -131,8 +136,7 @@ final class DemoFlowUITests: XCTestCase {
         app.launchArguments = ["-ui-testing", "-settings.onboardingComplete", "YES", "-settings.provider", "demo",
                                "-settings.scope", "nearby", "-mockForcedQuest", "Plaque Hunter"]
         app.launch()
-        // Relaunching drops the scheme's simulated location, so set one (Covent Garden).
-        XCUIDevice.shared.location = XCUILocation(location: CLLocation(latitude: 51.5117, longitude: -0.1240))
+        useLondonLocation()
         waitAndTap(element("questButton"))
         let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
         for label in ["Allow While Using App", "Allow Once"] {
@@ -191,6 +195,7 @@ final class DemoFlowUITests: XCTestCase {
     }
 
     func testNearbyQuestUsesLocationAndMap() {
+        useLondonLocation()
         finishOnboardingInDemoMode()
         waitAndTap(element("scopeChip"))
         waitAndTap(app.buttons["Nearby"])

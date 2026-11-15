@@ -1,4 +1,5 @@
 import XCTest
+import CoreLocation
 
 /// Captures clean screens for the App Store / Devpost mockups (see README → Store screenshots).
 /// Uses demo mode, sample history (`-marketing`, debug builds only) and fixed demo quests.
@@ -30,6 +31,8 @@ final class MarketingScreenshotTests: XCTestCase {
     func element(_ id: String) -> XCUIElement { app.descendants(matching: .any).matching(identifier: id).firstMatch }
 
     func getQuest(allowLocation: Bool = false) {
+        // The scheme's simulated location isn't always applied, so set it (Covent Garden).
+        if allowLocation { XCUIDevice.shared.location = XCUILocation(location: CLLocation(latitude: 51.51174, longitude: -0.12302)) }
         XCTAssertTrue(element("questButton").waitForExistence(timeout: 10))
         element("questButton").tap()
         if allowLocation {
