@@ -6,6 +6,8 @@
 
 **Tiny real-world quests and photo challenges for iPhone, made for exactly where you are.**
 
+Built for [DurHack 2026](https://durhack.com).
+
 Tap the big button and Detour gives you a quest for the venue you're at, the streets nearby or the wider city. Do it, take a photo, and a lenient AI referee checks it. Earn points, level up, keep a streak and collect badges.
 
 > *"Find an antique shop nearby and find a vase that looks at least 50 years old. Photograph it together with its label or price tag."*
@@ -163,7 +165,7 @@ On a new quest you can **Accept**, **Reroll** (−5 points) or **Discard** (also
 <details>
 <summary><b>Scopes and maps</b></summary>
 
-- **Venue:** type one line, e.g. *"HackLondon 2026 at Imperial College, South Kensington"*. The AI researches it once with web search (layout, rooms, events, sponsors, etiquette) and the result is cached. No GPS is used, and quests may only target researched areas or "any".
+- **Venue:** type one line, e.g. *"DurHack 2026 at Durham University"*. The AI researches it once with web search (layout, rooms, events, sponsors, etiquette) and the result is cached. No GPS is used, and quests may only target researched areas or "any".
 - **Nearby:** about 1 km on foot, using when-in-use location, `MKLocalPointsOfInterestRequest` and themed `MKLocalSearch` queries. Pubs, bars, casinos, vape shops and similar are filtered out before the AI sees them.
 - **City:** landmarks, museums, markets and so on within about 8 km.
 
